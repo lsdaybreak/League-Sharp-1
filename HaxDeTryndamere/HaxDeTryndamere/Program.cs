@@ -36,7 +36,7 @@ namespace HaxDeTryndamere
 
             E.SetSkillshot(0f, 93f, 600, false, SkillshotType.SkillshotLine);
 
-            Menu = new Menu("HaxDeTryndamere","HaxDeTryndamere);
+            Menu = new Menu("HaxDeTryndamere", "HaxDeTryndamere");
             Menu orbwalkerMenu = Menu.AddSubMenu(new Menu("Orbwalker", "Orbwalker"));
             Orbwalker = new Orbwalking.Orbwalker(orbwalkerMenu);
             Menu ts = Menu.AddSubMenu(new Menu("Target Selector", "Target Selector")); ;
