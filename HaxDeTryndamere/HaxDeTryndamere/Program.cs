@@ -18,6 +18,7 @@ namespace HaxDeTryndamere
         private static Spell Q, W, E, R;
         private static Menu Menu;
         private static Obj_AI_Hero target;
+        public const string ChampionName = "Tryndamere";
 
         static void Main(string[] args)
         {
